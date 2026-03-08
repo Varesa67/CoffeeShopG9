@@ -139,44 +139,40 @@ body {
   flex-shrink: 0;
 }
 
+/* Hero Image Fix */
 .hero-image {
-  width: 100%;       /* scale to container */
-  max-width: 320px;  /* never exceed 320px */
-  height: auto;      /* maintain aspect ratio */
-  border-radius: 20px;
-  border: 5px solid #6b4f2b;
-  object-fit: cover;
+    width: 100%;        /* scales with container */
+    max-width: 400px;   /* never larger than 400px */
+    height: auto;       /* keep aspect ratio */
+    border-radius: 20px;
+    border: 5px solid #6b4f2b;
+    object-fit: cover;
 }
 
-/* Responsive */
-@media(max-width: 992px) {
-  .hero-content {
-    flex-direction: column;  /* stack text and image */
-    gap: 20px;
-    padding: 30px;
-  }
-  .hero-image {
-    max-width: 80%; /* smaller on tablets */
-  }
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .hero-content {
+        flex-direction: column;  /* stack text and image */
+        align-items: center;
+        gap: 20px;
+    }
+    .hero-image {
+        max-width: 70%;  /* smaller on tablets */
+    }
 }
 
-@media(max-width: 576px) {
-  .hero-content {
-    width: 95%;
-    padding: 20px;
-    gap: 15px;
-  }
-  .hero-image {
-    max-width: 100%;  /* fit the screen on mobile */
-  }
-  .hero-text h1 {
-    font-size: 2em;
-  }
-  .hero-text h2 {
-    font-size: 1.2em;
-  }
-  .hero-btn {
-    font-size: 0.9em;
-    padding: 10px 15px;
-  }
+@media (max-width: 576px) {
+    .hero-image {
+        max-width: 100%;  /* fit mobile screens */
+    }
+    .hero-text h1 {
+        font-size: 2em;
+    }
+    .hero-text h2 {
+        font-size: 1.2em;
+    }
+    .hero-btn {
+        font-size: 0.9em;
+        padding: 10px 15px;
+    }
 }
