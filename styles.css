@@ -1,5 +1,4 @@
 /*menu*/
-
 /* CART */
 #cart-count{ position:absolute; top:-8px; left:20px; color:#fff; font-weight:700; }
 .cart-container{ position:fixed; top:70px; right:-400px; width:350px; height:80%; background:#5c4033; padding:20px; border-radius:8px 0 0 8px; transition:right .3s ease; z-index:1000; display:flex; flex-direction:column; box-shadow:-2px 2px 12px rgba(0,0,0,0.5); }
