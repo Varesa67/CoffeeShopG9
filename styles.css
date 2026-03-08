@@ -517,3 +517,73 @@ header {
     font-size: 2rem;
     cursor: pointer;
 }
+
+/* Location Page Styles */
+.location-section {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-container {
+    background-color: #a98c7b;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.location-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.location-container p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.customer-service {
+    margin-bottom: 30px;
+}
+
+.customer-service h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #d2b48c;
+}
+
+.customer-service p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    margin-top: 30px;
+}
+
+.map-container iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #6b4f2b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
